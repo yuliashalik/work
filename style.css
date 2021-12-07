@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -5,15 +8,15 @@
  }
  
  body{
-    color: rgb(17, 17, 17);
+    color: black;
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
  }
 
  .header{
- background: url("../img/font.jpg") transparent no-repeat center center / cover;
- padding: 10px 30px 150px 30px;
+    background: url("../pure-white-snow-surface.jpg") transparent no-repeat center center / cover;
+    padding: 10px 30px 150px 30px;
  
  }
 
@@ -52,11 +55,11 @@
  }
 
  .btn:hover{
-     background-color: black;
-     opacity: 0.5;
+    opacity: 0.5;
     border: 3px solid #fff;
     width: 150px;
     height: 50px;
+    
  }
 
 hr{
@@ -67,3 +70,34 @@ hr{
  @media screen and (max-width: 320px){
      
  }
+
+.menu-btn:hover {
+    font-size: 110%;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+.block__servises {
+    background: url() transparent no-repeat center center / cover ;
+    padding: 10px 30px 150px 30px
+}
+
+.servises {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
