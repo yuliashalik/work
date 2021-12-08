@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
 
 *{
@@ -11,13 +11,12 @@
     color: black;
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
  }
 
  .header{
     background: url("../pure-white-snow-surface.jpg") transparent no-repeat center center / cover;
     padding: 10px 30px 150px 30px;
- 
  }
 
 .nav{
@@ -37,13 +36,14 @@
 }
 
  .btn{
-    font-family: 'Montserrat', sans-serif;
-    border: 1px solid #fff;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(7, 6, 6);
     width: 150px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
  }
 
  .header__inner{
@@ -56,7 +56,8 @@
 
  .btn:hover{
     opacity: 0.5;
-    border: 3px solid #fff;
+    background-color: coral;
+    color: black;
     width: 150px;
     height: 50px;
     
@@ -64,7 +65,7 @@
 
 hr{
     width: 80px;
-    text-align: center;
+    margin: 0 auto;
 }
 
  @media screen and (max-width: 320px){
@@ -77,6 +78,7 @@ hr{
 
 .logo {
     font-size: 20px;
+    word-spacing: 5px;
 }
 
 h1 {
@@ -84,7 +86,7 @@ h1 {
 }
 
 .block__servises {
-    background: url() transparent no-repeat center center / cover ;
+    background: url(../hand-painted-watercolor-background-with-sky-and-clouds-shape.jpg) ;
     padding: 10px 30px 150px 30px
 }
 
@@ -99,5 +101,18 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+li {
+    list-style-type: none
+}
+
+p {
+    text-align: center;
+}
+
+.fa-ul {
+    display: flex;
+    align-items: center;
 }
 
