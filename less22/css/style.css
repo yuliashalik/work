@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent {
+    
+	height: 200px;
+}
+
+.child1{
+	height: 50px;
+	display: inline-block;
+	width: 15%;
+    position: absolute;
+    left: 17.44%;
+    right: 79.17%;
+    top: 1%;
+    bottom: 98%;
+    color: #070707;
+}
+
+.child2{
+	height: 50px;
+	display: inline-block;
+	width: 15%;
+    position: absolute;
+    left: 31.63%;
+    right: 62.7%;
+    top: 1%;
+    bottom: 98%;
+    color: #828282;
+
+}
+
+.child3{
+	height: 50px;
+	display: inline-block;
+	width: 15%;
+    position: absolute;
+    left: 48.1%;
+    right: 48.24%;
+    top: 1%;
+    bottom: 98%;
+    color: #828282;
+
+}
+
+.child4{
+	height: 50px;
+	display: inline-block;
+	width: 15%;
+    position: absolute;
+    left: 61.73%;
+    right: 33.29%;
+    top: 0.96%;
+    bottom: 98.43%;
+    color: #828282;
+
+}
+
+.child5{
+	height: 50px;
+	display: inline-block;
+	width: 15%;
+    position: absolute;
+    left: 77.51%;
+    right: 17.16%;
+    top: 1%;
+    bottom: 98%;
+    color: #828282;
+
+}
+
+hr {
+    position: absolute;
+    width: 1300px;
+    height: 0px;
+    left: 300px;
+    top: 5.75%;
+    border: 1px solid #828282;
+    transform: rotate(-0.04deg);
+}
+
+.box1 {
+position: absolute;
+left: 17.37%;
+right: 74.05%;
+top: 5.13%;
+bottom: 89.78%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 47.3392px;
+line-height: 55px;
+color: #070707;
+}
+
+.box2 {
+position: absolute;
+left: 46.51%;
+right: 42.77%;
+top: 10%;
+bottom: 91.39%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #070707;
+}
+
+.box3 {
+    position: absolute;
+    left: 5.88%;
+    right: -1.47%;
+    top: 400%;
+    bottom: -417.65%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #828282;
+    
+    transform: rotate(-90deg);
+    
+}
+
+.img {
+    position: absolute;
+width: 944px;
+height: 387.25px;
+left: 250px;
+top: 265.8px;
+}
