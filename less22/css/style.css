@@ -6,8 +6,8 @@ body {
 }
 
 .parent {
-    
-	height: 200px;
+    background-color: rgb(189, 250, 229);
+	height: 300px;
 }
 
 .child1{
@@ -90,7 +90,7 @@ left: 17.37%;
 right: 74.05%;
 top: 5.13%;
 bottom: 89.78%;
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 47.3392px;
@@ -104,7 +104,7 @@ left: 46.51%;
 right: 42.77%;
 top: 10%;
 bottom: 91.39%;
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -129,12 +129,47 @@ color: #070707;
     
 }
 
-.img {
-    position: absolute;
-    width: 944px;
-    height: 385.27px;
-    left: 250px;
-    top: 265.8px;
-    
-    background: url(https://images.unsplash.com/profile-1530374976725-ec88d489b2db?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128);
+.print-logo {
+    background-color: rgb(189, 250, 229);
+    height: 400px;
 }
+
+.img {
+   
+}
+
+.container {
+    background-color: rgb(222, 243, 236);
+    height: 500px;
+}
+
+.header {
+position: absolute;
+left: 44.68%;
+right: 44.54%;
+top: 75%;
+bottom: 60.12%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+color: #070707;
+}
+
+.bottom {
+    position: absolute;
+    width: 485.34px;
+    height: 217.02px;
+    left: 37.5%;
+    top: 850px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #070707;
+}
+
