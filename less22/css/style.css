@@ -130,8 +130,11 @@ color: #070707;
 }
 
 .img {
-width: 2000px;
-height: 500px;
-left: 500px;
-top: 265.8px;
+    position: absolute;
+    width: 944px;
+    height: 385.27px;
+    left: 250px;
+    top: 265.8px;
+    
+    background: url(https://images.unsplash.com/profile-1530374976725-ec88d489b2db?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128);
 }
