@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
-.parent {
+/* .parent {
     background-color: rgb(189, 250, 229);
-	height: 300px;
+	height: 650px;
 }
 
 .child1{
@@ -85,7 +91,7 @@ hr {
 }
 
 .box1 {
-position: absolute;
+
 left: 17.37%;
 right: 74.05%;
 top: 5.13%;
@@ -129,15 +135,6 @@ color: #070707;
     
 }
 
-.print-logo {
-    background-color: rgb(189, 250, 229);
-    height: 400px;
-}
-
-.img {
-   
-}
-
 .container {
     background-color: rgb(222, 243, 236);
     height: 500px;
@@ -147,7 +144,7 @@ color: #070707;
 position: absolute;
 left: 44.68%;
 right: 44.54%;
-top: 75%;
+top: 80%;
 bottom: 60.12%;
 font-family: 'Roboto';
 font-style: normal;
@@ -173,3 +170,41 @@ color: #070707;
     color: #070707;
 }
 
+.footer {
+    background-color: rgb(189, 250, 229);
+    height: 650px;
+}
+
+.print {
+position: absolute;
+left: 45.81%;
+right: 45.61%;
+top: 1250px;
+bottom: 40.22%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+color: #070707;
+} */
+
+
+
+.block-1 {
+    width: 100%;
+}
+
+.container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+.print-logo {
+    width: 944px;
+    height: 385px;
+    margin: 0 auto;
+    background: url(../img/BSPP2266.jpg) no-repeat center center;
+    background-size: cover;
+}
